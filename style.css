@@ -15,7 +15,7 @@
 
 * { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+html { scroll-behavior: smooth; scroll-padding-top: 72px; overflow-x: hidden; }
 
 body {
   margin: 0;
@@ -26,7 +26,6 @@ body {
   background-size: 40px 40px;
   color: var(--ink);
   font-family: var(--font-body);
-  overflow-x: hidden;
   position: relative;
 }
 
@@ -159,12 +158,6 @@ p { line-height: 1.6; }
   margin: 18px auto 0;
   line-height: 1.3;
 }
-.hero-creds {
-  font-family: var(--font-hand);
-  font-size: 1.3rem;
-  color: var(--accent-2);
-  margin: 16px 0 0;
-}
 .hero-sub {
   font-size: clamp(1.05rem, 2.2vw, 1.2rem);
   max-width: 540px;
@@ -178,8 +171,12 @@ p { line-height: 1.6; }
   flex-direction: column;
   align-items: center;
   gap: 4px;
+  color: var(--ink);
+  text-decoration: none;
   animation: bob 2s ease-in-out infinite;
+  cursor: pointer;
 }
+.scroll-cue:hover { color: var(--accent-1); }
 .scroll-arrow { width: 40px; height: 30px; }
 @keyframes bob {
   0%, 100% { transform: translateY(0); }
@@ -324,8 +321,8 @@ section {
   display: inline-block;
   background: var(--accent-3);
   color: var(--ink);
-  font-family: var(--font-hand);
-  font-size: 1.15rem;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
   font-weight: 700;
   text-decoration: none;
   padding: 10px 22px;
