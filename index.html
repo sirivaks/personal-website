@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Sireesha Vakada — hi, I'm Sireesha</title>
-<meta name="description" content="Sireesha Vakada's personal corner of the internet — builder, traveler, chronic try-er of random things." />
+<title>Sireesha Vakada — Product, Engineering &amp; AI</title>
+<meta name="description" content="Sireesha Vakada is a Product Manager at Intuit with an engineering and NLP research background. She builds products at the intersection of technology, users, and AI." />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='80'%3E%E2%9C%8F%EF%B8%8F%3C/text%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +12,19 @@
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+<nav class="site-nav" aria-label="Primary">
+  <a class="nav-name" href="#top">Sireesha Vakada</a>
+  <div class="nav-right">
+    <div class="nav-links">
+      <a href="#professional-corner">experience</a>
+      <a href="#research">research</a>
+      <a href="#about">about</a>
+      <a href="#else">else</a>
+    </div>
+    <a class="nav-cta" href="#say-hi">say hi</a>
+  </div>
+</nav>
 
 <!-- floating background doodles -->
 <div class="bg-doodles" aria-hidden="true">
@@ -24,10 +37,16 @@
 <!-- HERO -->
 <section class="hero" id="top">
   <div class="hero-inner">
-    <h1>Hi, I'm <span class="highlight">Sireesha
-      <svg class="squiggle-underline" viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true"><path d="M2 12 Q 30 2, 60 12 T 120 12 T 180 12 T 240 12 T 298 12" fill="none" stroke="var(--accent-2)" stroke-width="4" stroke-linecap="round"/></svg>
-    </span>.</h1>
-    <p class="hero-sub">I like building things, meeting people, and going places I haven't been yet.</p>
+    <p class="hero-kicker">Product Manager · Intuit</p>
+    <h1>Hi, I'm Sireesha.</h1>
+    <p class="hero-line">I build products at the intersection of technology, users, and AI.</p>
+    <p class="hero-sub">Product Manager at Intuit with a background in software engineering and NLP research. I enjoy turning ambiguous problems into products that are useful, technically grounded, and worth building.</p>
+    <p class="hero-creds">Product · Engineering · AI Research</p>
+    <div class="hero-actions">
+      <a class="pill-link" href="#professional-corner">my experience →</a>
+      <a class="pill-link calm" href="#research">read my research →</a>
+      <a class="pill-link calm" href="https://www.linkedin.com/in/sireesha-vakada-a52286177/" target="_blank" rel="noopener">LinkedIn →</a>
+    </div>
     <div class="scroll-cue">
       <span>scroll down</span>
       <svg viewBox="0 0 60 40" class="scroll-arrow"><path d="M5 5 Q 30 40, 55 5" fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round"/></svg>
@@ -35,23 +54,354 @@
   </div>
 </section>
 
-<!-- ABOUT -->
-<section class="about reveal">
+<!-- ABOUT + THREAD -->
+<section class="about reveal" id="about">
   <div class="section-inner">
-    <h2 class="section-title">a bit about me <svg class="arrow-doodle" viewBox="0 0 80 40" aria-hidden="true"><path d="M2 30 Q 30 5, 70 15" fill="none" stroke="var(--accent-1)" stroke-width="3" stroke-linecap="round"/><path d="M70 15 L 60 10 M70 15 L 63 24" fill="none" stroke="var(--accent-1)" stroke-width="3" stroke-linecap="round"/></svg></h2>
+    <h2 class="section-title">a little more about me</h2>
     <p class="about-text">
-      I'm a builder at heart — I get a real kick out of making things exist that didn't before. But honestly, the thing I love most is people: I'll happily talk to just about anyone, and half my best ideas come out of a random conversation.
+      CS from IIIT Hyderabad, then software at Goldman Sachs, then product at Intuit. I like the product questions: why are people struggling, what's actually going on under the request, and what should we <em>not</em> build?
     </p>
     <p class="about-text">
-      When I'm not building, I'm probably traveling somewhere new, playing a sport, or trying some random thing I've never done before just to see if I like it. Turns out <span class="highlight">"let's just try it"</span> is basically my whole personality.
+      I'm a builder at heart. I'll happily talk to just about anyone, and half my best ideas come out of a random conversation. Turns out <span class="highlight">"let's just try it"</span> is basically my whole personality.
     </p>
+    <p class="about-text found-note"><strong>I started with code. It changed how I think about products.</strong> Engineering taught me systems and trade-offs. Product taught me to start with the person living the problem.</p>
   </div>
 </section>
 
-<!-- THINGS I LOVE -->
-<section class="loves reveal">
+<!-- THE THREAD — passport stamps -->
+<section class="thread-stamps reveal" id="thread">
+  <div class="section-inner wide">
+    <h2 class="section-title">the thread running through everything I've done</h2>
+    <p class="thread-lead">Not a career ladder — stamps in a passport. Same traveler, different cities.</p>
+
+    <div class="stamp-trail">
+      <svg class="flight-line" viewBox="0 0 800 120" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M20 70 C 140 10, 260 110, 400 55 S 640 20, 780 75" fill="none" stroke="var(--ink)" stroke-width="2" stroke-dasharray="7 8" opacity="0.35"/>
+      </svg>
+      <article class="passport-stamp s1">
+        <span class="stamp-mark">01 · Hyderabad</span>
+        <h3>Research</h3>
+        <p>How do we make machines understand language?</p>
+        <span class="stamp-ink">NLP · Telugu · graphs</span>
+      </article>
+      <article class="passport-stamp s2">
+        <span class="stamp-mark">02 · Goldman</span>
+        <h3>Engineering</h3>
+        <p>How do we build reliable systems around messy problems?</p>
+        <span class="stamp-ink">code · constraints</span>
+      </article>
+      <article class="passport-stamp s3">
+        <span class="stamp-mark">03 · Intuit</span>
+        <h3>Product</h3>
+        <p>What problem is actually worth solving?</p>
+        <span class="stamp-ink">users · judgment</span>
+      </article>
+      <article class="passport-stamp s4">
+        <span class="stamp-mark">04 · now</span>
+        <h3>AI</h3>
+        <p>What becomes possible when machines can reason, understand, and act?</p>
+        <span class="stamp-ink">still collecting stamps</span>
+      </article>
+    </div>
+    <p class="thread-end">That's the space I'm interested in now.</p>
+  </div>
+</section>
+
+<!-- WHAT I LIKE TO SOLVE -->
+<section class="solve reveal" id="solve">
   <div class="section-inner">
-    <h2 class="section-title">things I love</h2>
+    <h2 class="section-title">what I like to solve</h2>
+    <div class="cards">
+      <div class="card" tabindex="0">
+        <div class="card-icon">01</div>
+        <h3>Ambiguous problems</h3>
+        <p>Taking vague customer pain and turning it into a problem that's actually defined.</p>
+        <span class="card-note">what's really going on?</span>
+      </div>
+      <div class="card" tabindex="0">
+        <div class="card-icon">02</div>
+        <h3>Complex systems</h3>
+        <p>Understanding the messy workflow, then making it simpler for the person using it.</p>
+        <span class="card-note">less spaghetti, please</span>
+      </div>
+      <div class="card" tabindex="0">
+        <div class="card-icon">03</div>
+        <h3>AI-native experiences</h3>
+        <p>Where AI, agents, and intelligent workflows can actually change how the product works — not just sprinkle a chatbot on top.</p>
+        <span class="card-note">if it needs a wrapper, skip it</span>
+      </div>
+      <div class="card" tabindex="0">
+        <div class="card-icon">04</div>
+        <h3>0 → 1 products</h3>
+        <p>Going from a blank page to something tangible enough to test, learn from, and improve.</p>
+        <span class="card-note">ship a slice</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROFESSIONAL CORNER -->
+<section class="pro-corner reveal" id="professional-corner">
+  <div class="pro-corner-frame">
+    <header class="pro-header">
+      <p class="pro-kicker">professional</p>
+    <h2 class="pro-name">Experience</h2>
+      <p class="pro-summary">Product at Intuit. Engineering at Goldman Sachs. Research at IIIT Hyderabad. Same curiosity, different questions.</p>
+      <div class="pro-formal-links">
+        <a class="pill-link calm" href="sireesha_vakada_resume.pdf" target="_blank" rel="noopener">Resume →</a>
+        <a class="pill-link calm" href="https://www.linkedin.com/in/sireesha-vakada-a52286177/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="pill-link calm" href="https://github.com/sirivaks" target="_blank" rel="noopener">GitHub</a>
+        <a class="pill-link calm" href="mailto:sireeshavakada39@gmail.com">Email</a>
+      </div>
+    </header>
+
+    <h3 class="pro-section-label">Roles</h3>
+    <ol class="timeline">
+      <li class="timeline-item">
+        <div class="timeline-when">Oct 2024 – Present</div>
+        <div class="timeline-body">
+          <h4>Product Manager · Intuit</h4>
+          <p class="timeline-place">QuickBooks / Intuit Enterprise Suite — Projects &amp; Extensibility · Bengaluru</p>
+          <ul>
+            <li>Aligned FY27 OKRs and quarterly investment to the highest-value customer and growth bets on Projects.</li>
+            <li>Defined an end-to-end labor-costing experience spanning project management, payroll, time tracking, and data migration.</li>
+            <li>Partnered across product, design, and engineering from discovery through launch on AI and platform bets.</li>
+          </ul>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-when">Jul 2022 – Sep 2024</div>
+        <div class="timeline-body">
+          <h4>Product Engineer · Goldman Sachs</h4>
+          <p class="timeline-place">Commercial Real Estate Mortgage Platform · Bengaluru</p>
+          <ul>
+            <li>Owned the internal asset-management product for CRE mortgage data, including the maker-checker workflow.</li>
+            <li>Led a third-party application integration proof of concept and defined the integration workflow.</li>
+            <li>Co-led a hackathon-winning AI conversational search prototype from problem framing through stakeholder demo.</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+
+    <div class="pro-stats" aria-label="Highlights">
+      <div class="pro-stat">
+        <span class="pro-stat-num">5K+</span>
+        <span class="pro-stat-label">customer signals analyzed to set the Projects roadmap</span>
+      </div>
+      <div class="pro-stat">
+        <span class="pro-stat-num">325+</span>
+        <span class="pro-stat-label">companies using AI Dimension Recommendations</span>
+      </div>
+      <div class="pro-stat">
+        <span class="pro-stat-num">4.8K</span>
+        <span class="pro-stat-label">mid-market customers on Custom Objects</span>
+      </div>
+    </div>
+
+    <h3 class="pro-section-label">Selected Work</h3>
+    <div class="work-list">
+      <article class="work-item">
+        <div class="work-item-meta">
+          <span class="work-tag">Intuit · QuickBooks</span>
+          <span class="work-when">2024 – present</span>
+        </div>
+        <h4>Enterprise-ready QuickBooks Projects</h4>
+        <p>Owned the enterprise-readiness roadmap across 5 workstreams. Used 5K+ customer signals to name reporting as the #1 pain, then drove 30% of identified opportunities to scope or launch.</p>
+      </article>
+      <article class="work-item">
+        <div class="work-item-meta">
+          <span class="work-tag">Intuit · AI</span>
+          <span class="work-when">2024 – present</span>
+        </div>
+        <h4>AI-powered Dimension Recommendations</h4>
+        <p>Shipped recommendations trained on historical transaction patterns — 33% acceptance across 325+ mid-market companies, automating a third of dimension assignments.</p>
+      </article>
+      <article class="work-item">
+        <div class="work-item-meta">
+          <span class="work-tag">Intuit · Platform</span>
+          <span class="work-when">2024 – present</span>
+        </div>
+        <h4>Custom Objects / extensibility</h4>
+        <p>Co-launched a no-code data modeling platform so 4.8K mid-market customers can extend business objects across core workflows without engineering.</p>
+      </article>
+      <article class="work-item">
+        <div class="work-item-meta">
+          <span class="work-tag">Intuit · 0-to-1</span>
+          <span class="work-when">2024 – present</span>
+        </div>
+        <h4>AI project management agent</h4>
+        <p>Led 0-to-1 for a mid-market agent that lets customers set up projects, build budgets, and track costs in natural language. Paired that with discovery on construction job-costing and payroll.</p>
+      </article>
+      <article class="work-item">
+        <div class="work-item-meta">
+          <span class="work-tag">Goldman Sachs</span>
+          <span class="work-when">2022 – 2024</span>
+        </div>
+        <h4>Commercial real estate mortgage platform</h4>
+        <p>Built an internal asset-management product with a maker-checker workflow (−32% error-correction time) and a third-party integration PoC (−40% manual reconciliation).</p>
+      </article>
+    </div>
+
+    <h3 class="pro-section-label">Education</h3>
+    <div class="edu-block">
+      <div class="edu-top">
+        <h4>IIIT Hyderabad</h4>
+        <span>Aug 2017 – Jul 2022</span>
+      </div>
+      <p>B.Tech + MS by Research in Computer Science · Gold Medalist for All-Round Excellence</p>
+    </div>
+
+    <h3 class="pro-section-label">Skills</h3>
+    <ul class="skill-tags">
+      <li>Product strategy</li>
+      <li>Roadmapping</li>
+      <li>Customer discovery</li>
+      <li>Enterprise SaaS</li>
+      <li>AI product development</li>
+      <li>SQL &amp; analytics</li>
+      <li>Experimentation</li>
+      <li>Figma</li>
+      <li>Python</li>
+      <li>Java</li>
+      <li>OKRs</li>
+    </ul>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section class="research-story reveal" id="research">
+  <div class="section-inner wide">
+    <h2 class="section-title">before I built products, I built models</h2>
+    <p class="about-text">My interest in AI didn't start with ChatGPT. It started in a lab at IIIT Hyderabad's Language Technology Research Center, trying to get language technology to work for Indian languages that most models barely notice — especially Telugu. Datasets, embeddings, classification, graph networks, summarization… the unglamorous stuff that actually makes language systems exist.</p>
+    <p class="about-text">That work still shows up in how I build products: start with the constraint, care about the data, and don't confuse a good benchmark with a good experience.</p>
+    <div class="stat-strip" aria-label="Research by the numbers">
+      <span class="stat-badge">6 publications</span>
+      <span class="stat-dot">·</span>
+      <span class="stat-badge">49 citations</span>
+    </div>
+
+    <h3 class="pro-section-label">Research timeline</h3>
+    <ol class="research-years">
+      <li>
+        <span class="ry-year">2021</span>
+        <div>
+          <h4>Telugu NLP &amp; low-resource languages</h4>
+          <p>What happens when you try to build NLP for languages that don't get English-sized data?</p>
+        </div>
+      </li>
+      <li>
+        <span class="ry-year">2022</span>
+        <div>
+          <h4>Language models · classification · representation</h4>
+          <p>Datasets, embeddings, graph-based models, and multi-task text classification.</p>
+        </div>
+      </li>
+      <li>
+        <span class="ry-year">2023</span>
+        <div>
+          <h4>Graph-based summarization</h4>
+          <p>Unsupervised summaries for Indian languages — useful output when labeled data is scarce.</p>
+        </div>
+      </li>
+      <li>
+        <span class="ry-year">today</span>
+        <div>
+          <h4>AI products</h4>
+          <p>Same curiosity about language, models, systems, and people — now aimed at products people actually use.</p>
+        </div>
+      </li>
+    </ol>
+
+    <h3 class="pro-section-label">Featured Research</h3>
+    <div class="paper-cards">
+      <article class="paper-card">
+        <span class="paper-num">01</span>
+        <h3>GAE-ISUMM</h3>
+        <p class="paper-sub">Unsupervised graph-based summarization for Indian languages</p>
+        <p>How do you automatically write useful summaries when you don't have English-sized training data? We used graphs to pull signal out of the language itself.</p>
+        <div class="paper-tags"><span>NLP</span><span>Summarization</span><span>Indian languages</span><span>GNNs</span></div>
+        <a class="pill-link calm" href="https://www.researchgate.net/profile/Sireesha-Vakada" target="_blank" rel="noopener">read paper →</a>
+      </article>
+      <article class="paper-card">
+        <span class="paper-num">02</span>
+        <h3>Multi-task text classification</h3>
+        <p class="paper-sub">Graph convolutional networks for large-scale low-resource languages</p>
+        <p>Can graph-based approaches help classification across several NLP tasks when the language is resource-poor?</p>
+        <div class="paper-tags"><span>GCN</span><span>NLP</span><span>Classification</span><span>Low-resource AI</span></div>
+        <a class="pill-link calm" href="https://www.researchgate.net/profile/Sireesha-Vakada" target="_blank" rel="noopener">read paper →</a>
+      </article>
+      <article class="paper-card">
+        <span class="paper-num">03</span>
+        <h3>Telugu NLP</h3>
+        <p class="paper-sub">Am I a resource-poor language?</p>
+        <p>Datasets, embeddings, models, and a look at what Telugu can (and can't) do across a handful of NLP tasks.</p>
+        <div class="paper-tags"><span>Telugu</span><span>NLP</span><span>Datasets</span><span>Language models</span></div>
+        <a class="pill-link calm" href="https://www.researchgate.net/profile/Sireesha-Vakada" target="_blank" rel="noopener">read paper →</a>
+      </article>
+    </div>
+    <p class="research-foot">Full list lives on <a href="https://www.researchgate.net/profile/Sireesha-Vakada" target="_blank" rel="noopener">ResearchGate</a> — the story lives here.</p>
+  </div>
+</section>
+
+<!-- ELSE: thinking + building + outside -->
+<section class="else-section reveal" id="else">
+  <div class="section-inner">
+    <h2 class="section-title else-word">else</h2>
+    <p class="thread-lead">thinking · building · the rest of me</p>
+
+    <h3 class="section-title nested">how I think about products</h3>
+    <p class="about-text">Notes I keep coming back to. Not a blog — more like the sentences I scribble in the margin of a spec.</p>
+    <div class="think-list">
+      <article class="think-card">
+        <h3>A feature request is rarely the problem.</h3>
+        <p>People ask for a button. Underneath is usually a broken workflow, a missing piece of context, or a job they can't get done.</p>
+      </article>
+      <article class="think-card">
+        <h3>What makes an AI product actually useful?</h3>
+        <p>Not the model. Whether it changes a real step in someone's day — and whether you can tell when it's wrong.</p>
+      </article>
+      <article class="think-card">
+        <h3>When should a product use an agent?</h3>
+        <p>When the work is multi-step, messy, and the user shouldn't have to babysit every click. Not because agents are trendy.</p>
+      </article>
+      <article class="think-card">
+        <h3>The difference between a prototype and a product.</h3>
+        <p>A prototype proves it can work. A product survives the boring parts: edge cases, trust, evals, and "what if this is wrong?"</p>
+      </article>
+      <article class="think-card">
+        <h3>What I learned moving from engineering to product.</h3>
+        <p>I used to start with the system. Now I start with the person, then go back to the system with better questions.</p>
+      </article>
+      <article class="think-card">
+        <h3>Why good product decisions start with better questions.</h3>
+        <p>Roadmaps full of answers are easy. The work is naming the question that's actually worth the next quarter.</p>
+      </article>
+    </div>
+
+    <h3 class="section-title nested">things I'm building</h3>
+    <p class="about-text">I learn products best by actually building them — even the tiny, slightly chaotic ones.</p>
+    <div class="cards">
+      <div class="card" tabindex="0">
+        <div class="card-icon">✨</div>
+        <h3>Currently exploring</h3>
+        <p>AI-native products that solve a real job, not an LLM wrapped around an existing workflow.</p>
+        <span class="card-note">status: poking around</span>
+      </div>
+      <div class="card" tabindex="0">
+        <div class="card-icon">🌐</div>
+        <h3>This website</h3>
+        <p>Bought a domain. Then had to decide what I actually wanted to say. Still a work in progress, on purpose.</p>
+        <span class="card-note">status: live-ish</span>
+      </div>
+      <div class="card" tabindex="0">
+        <div class="card-icon">🤖</div>
+        <h3>AI project agent</h3>
+        <p>At work: let mid-market teams set up projects, budgets, and costs in natural language. 0 → 1, still unfolding.</p>
+        <span class="card-note">status: building</span>
+      </div>
+    </div>
+
+    <h3 class="section-title nested">outside of work</h3>
     <div class="cards">
       <div class="card" tabindex="0">
         <div class="card-icon">✈️</div>
@@ -96,121 +446,11 @@
         <span class="card-note">tell me the story</span>
       </div>
     </div>
-  </div>
-</section>
 
-<!-- WHAT I DO (teaser) -->
-<section class="work reveal">
-  <div class="section-inner work-inner">
-    <svg class="briefcase-doodle" viewBox="0 0 100 100" aria-hidden="true"><rect x="15" y="35" width="70" height="45" rx="6" fill="none" stroke="var(--ink)" stroke-width="2.5"/><path d="M35 35 V25 Q35 18 42 18 H58 Q65 18 65 25 V35" fill="none" stroke="var(--ink)" stroke-width="2.5"/><line x1="15" y1="55" x2="85" y2="55" stroke="var(--ink)" stroke-width="2.5"/></svg>
-    <p class="work-text">By day, I build products people actually use — and before that, I was buried in research papers. If that's your thing, I've got a whole corner for you 👇</p>
-    <div class="work-links">
-      <a class="pill-link" href="#professional-corner">step into the professional corner →</a>
-    </div>
-  </div>
-</section>
-
-<!-- PROFESSIONAL CORNER -->
-<section class="pro-corner reveal" id="professional-corner">
-  <div class="pro-corner-frame">
-    <div class="pro-sign">
-      <svg class="door-doodle" viewBox="0 0 120 100" aria-hidden="true">
-        <rect x="25" y="10" width="70" height="85" rx="4" fill="none" stroke="var(--ink)" stroke-width="2.5"/>
-        <circle cx="82" cy="55" r="4" fill="none" stroke="var(--ink)" stroke-width="2"/>
-        <path d="M5 95 Q 60 88, 115 95" fill="none" stroke="var(--accent-2)" stroke-width="2.5" stroke-linecap="round"/>
-      </svg>
-      <p class="pro-sign-text">🚪 the professional corner</p>
-    </div>
-
-    <!-- Product & Work -->
-    <div class="pro-half">
-      <h2 class="pro-title">product &amp; work</h2>
-      <p class="pro-intro">These days I build products at Intuit, focused on making enterprise software actually work for the people who rely on it. Here's some of what I've shipped.</p>
-
-      <div class="pro-cards">
-        <article class="pro-card">
-          <h3>Making QuickBooks Projects enterprise-ready</h3>
-          <p>Led the roadmap to fix what was breaking for big customers — turned a failing data migration around from 88% to 98% success by finding the one root cause behind most failures.</p>
-        </article>
-        <article class="pro-card">
-          <h3>AI-Powered Dimension Recommendations</h3>
-          <p>Shipped an AI feature adopted by 325+ companies that automates a third of a tedious manual task.</p>
-        </article>
-        <article class="pro-card">
-          <h3>Custom Objects / Extensibility platform</h3>
-          <p>Gave thousands of mid-market customers the ability to extend the product without code.</p>
-        </article>
-        <article class="pro-card">
-          <h3>Full Service Onboarding</h3>
-          <p>Launched a done-for-you setup service opening up a meaningful new revenue opportunity.</p>
-        </article>
-      </div>
-
-      <div class="pro-formal-links">
-        <a class="pill-link calm" href="https://www.linkedin.com/in/sireesha-vakada-a52286177/" target="_blank" rel="noopener">LinkedIn →</a>
-        <span class="pill-link calm placeholder" title="Resume coming soon">resume (coming soon)</span>
-      </div>
-    </div>
-
-    <div class="pro-divider" aria-hidden="true">
-      <svg viewBox="0 0 300 30"><path d="M5 15 Q 75 5, 150 15 T 295 15" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 6" opacity="0.4"/></svg>
-    </div>
-
-    <!-- Research & Thesis -->
-    <div class="pro-half">
-      <h2 class="pro-title">research &amp; thesis</h2>
-      <p class="pro-intro">Before product, I spent my years at IIIT Hyderabad doing NLP research — mostly on a problem I care a lot about: making language technology work for Indian languages that don't get much attention in mainstream AI.</p>
-
-      <div class="stat-strip" aria-label="Research by the numbers">
-        <span class="stat-badge">6 publications</span>
-        <span class="stat-dot">·</span>
-        <span class="stat-badge">88 citations</span>
-        <span class="stat-dot">·</span>
-        <span class="stat-badge">~2,000 reads</span>
-      </div>
-
-      <p class="pro-theme">My research focused on natural language processing for low-resource Indian languages — especially Telugu — building datasets, models, and summarization/classification techniques for languages that most AI tools overlook.</p>
-
-      <h3 class="pro-subtitle">selected publications</h3>
-      <ul class="pub-list">
-        <li>
-          <a href="https://www.researchgate.net/profile/Sireesha-Vakada" target="_blank" rel="noopener"><em>GAE-ISUMM: Unsupervised Graph-based Summarization for Indian Languages</em></a>
-          <span class="pub-meta">2023</span>
-        </li>
-        <li>
-          <a href="https://www.researchgate.net/profile/Sireesha-Vakada" target="_blank" rel="noopener"><em>Multi-Task Text Classification using Graph Convolutional Networks for Large-Scale Low-Resource Language</em></a>
-          <span class="pub-meta">2022</span>
-        </li>
-        <li>
-          <a href="https://www.researchgate.net/profile/Sireesha-Vakada" target="_blank" rel="noopener"><em>Am I a Resource-Poor Language? Datasets, Embeddings, Models and Analysis for four NLP tasks in Telugu</em></a>
-          <span class="pub-meta">ACM TALLIP, 2022</span>
-        </li>
-        <li>
-          <a href="https://www.researchgate.net/profile/Sireesha-Vakada" target="_blank" rel="noopener"><em>Clickbait Detection in Telugu</em></a>
-          <span class="pub-meta">2021</span>
-        </li>
-      </ul>
-
-      <div class="thesis-callout">
-        <h3 class="pro-subtitle">my thesis</h3>
-        <p class="thesis-placeholder"><strong>MS by Research, IIIT Hyderabad</strong> — a placeholder for now. I'll drop in a plain-English summary and a link to the full PDF here soon.</p>
-        <span class="pill-link calm placeholder">read thesis (coming soon)</span>
-      </div>
-
-      <a class="pill-link calm" href="https://www.researchgate.net/profile/Sireesha-Vakada" target="_blank" rel="noopener">full ResearchGate profile →</a>
-    </div>
-
-    <a class="back-to-fun" href="#top">back to the fun stuff 👆</a>
-  </div>
-</section>
-
-<!-- CURRENTLY -->
-<section class="currently reveal">
-  <div class="section-inner">
-    <h2 class="section-title">lately, I've been...</h2>
+    <h3 class="section-title nested">lately, I've been...</h3>
     <div class="currently-card">
       <ul class="currently-list" id="currently-list">
-        <li>📖 reading: <em>Percy Jackson — The Lightning Thief</em></li>
+        <li>📖 reading: <em>The Midnight Library</em></li>
         <li>🌍 last trip: <em>Kodaikanal (subject to change by the time you're reading this)</em></li>
         <li>🎯 newest random thing I tried: <em>bought a domain — no idea yet what I'm doing with it</em></li>
       </ul>
@@ -220,7 +460,7 @@
 </section>
 
 <!-- SAY HI -->
-<section class="say-hi reveal">
+<section class="say-hi reveal" id="say-hi">
   <div class="section-inner">
     <svg class="mailbox-doodle" viewBox="0 0 100 100" aria-hidden="true">
       <rect x="20" y="35" width="45" height="30" rx="15" fill="none" stroke="var(--ink)" stroke-width="2.5"/>
@@ -229,16 +469,27 @@
       <line x1="15" y1="85" x2="55" y2="85" stroke="var(--ink)" stroke-width="2.5"/>
       <rect x="60" y="25" width="14" height="10" rx="2" fill="none" stroke="var(--accent-2)" stroke-width="2.5"/>
     </svg>
-    <h2 class="section-title">say hi!</h2>
-    <p class="say-hi-text">I'm always up for a good conversation — say hi, I promise I'll say hi back.</p>
+    <h2 class="section-title">have an interesting problem?</h2>
+    <p class="say-hi-text">Let's talk. I promise I'll say hi back.</p>
     <div class="contact-links">
-      <a class="pill-link big" href="mailto:sireeshavakada39@gmail.com">✉️ sireeshavakada39@gmail.com</a>
+      <a class="pill-link big" href="mailto:sireeshavakada39@gmail.com">✉️ email</a>
       <a class="pill-link big" href="https://www.linkedin.com/in/sireesha-vakada-a52286177/" target="_blank" rel="noopener">🔗 LinkedIn</a>
+      <a class="pill-link big" href="https://github.com/sirivaks" target="_blank" rel="noopener">💻 GitHub</a>
     </div>
   </div>
 </section>
 
 <footer class="footer">
+  <p>Product · Engineering · AI · curiosity</p>
+  <p>
+    <a href="https://github.com/sirivaks" target="_blank" rel="noopener">GitHub</a>
+    ·
+    <a href="https://www.researchgate.net/profile/Sireesha-Vakada" target="_blank" rel="noopener">Research</a>
+    ·
+    <a href="https://www.linkedin.com/in/sireesha-vakada-a52286177/" target="_blank" rel="noopener">LinkedIn</a>
+    ·
+    <a href="mailto:sireeshavakada39@gmail.com">Email</a>
+  </p>
   <p>made by hand, with a lot of coffee — © <span id="year"></span> Sireesha Vakada</p>
 </footer>
 
