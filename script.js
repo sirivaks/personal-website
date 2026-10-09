@@ -17,6 +17,13 @@ revealEls.forEach((el) => observer.observe(el));
   const skip = document.getElementById('intro-skip');
   if (!intro) return;
 
+  if (document.documentElement.classList.contains('skip-intro')) {
+    document.body.classList.remove('intro-lock');
+    intro.remove();
+    if (skip) skip.remove();
+    return;
+  }
+
   const timers = [];
   const later = (fn, ms) => timers.push(window.setTimeout(fn, ms));
   let finished = false;
@@ -25,6 +32,7 @@ revealEls.forEach((el) => observer.observe(el));
   function endIntro() {
     if (finished) return;
     finished = true;
+    try { sessionStorage.setItem('coffee-intro-seen', '1'); } catch (error) {}
     timers.forEach(clearTimeout);
     if (drainFrame) cancelAnimationFrame(drainFrame);
     intro.classList.add('is-done');
